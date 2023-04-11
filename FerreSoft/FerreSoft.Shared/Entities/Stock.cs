@@ -2,10 +2,10 @@
 {
     public class Stock
     {
-        public int id { get; set; }
-        public int cantidad { get; set; }
+        public int Id { get; set; }
+        public int Cantidad { get; set; }
 
-        public Pedido? pedido { get; set; }
+        public Pedido? Pedido { get; set; }
 
         public int idPedido { get; set; }
     }

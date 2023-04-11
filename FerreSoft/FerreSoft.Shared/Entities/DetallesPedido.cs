@@ -2,14 +2,14 @@
 {
     public class DetallesPedido
     {
-        public int id { get; set; }
-        public int cantidad { get; set; }
+        public int Id { get; set; }
+        public int Cantidad { get; set; }
 
-        public int idPedido { get; set; }
+        public int IdPedido { get; set; }
 
-        public int idProducto { get; set; }
-        public Pedido? pedido { get; set;}
+        public int IdProducto { get; set; }
+        public Pedido? Pedido { get; set;}
 
-        public Producto? producto { get; set; }
+        public Producto? Producto { get; set; }
     }
 }

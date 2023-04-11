@@ -3,20 +3,20 @@
     public class Usuario
     {
         public int id { get; set; }
-        public string? nombre { get; set; }
+        public string?  Nombre { get; set; }
 
-        public string? tipoDocumento { get; set; }
+        public string? TipoDocumento { get; set; }
 
-        public string? documento { get; set; }
-        public string? correo { get; set; }
-        public string? telefono { get; set; }
-        public string? direccion { get; set; }
-        public string? departamento { get; set; }
-        public string? ciudad { get; set; }
-        public string? barrio { get; set; }
-        public DateTime fechaCreacion { get; set; }
-        public DateTime fechaActualizacion { get; set; }
-        public bool activo { get; set; }
+        public string? Documento { get; set; }
+        public string? Correo { get; set; }
+        public string? Telefono { get; set; }
+        public string? Direccion { get; set; }
+        public string? Departamento { get; set; }
+        public string? Ciudad { get; set; }
+        public string? Barrio { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime? FechaActualizacion { get; set; }
+        public bool Activo { get; set; }
 
     }
 }

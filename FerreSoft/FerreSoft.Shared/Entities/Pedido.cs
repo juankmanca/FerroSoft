@@ -3,12 +3,12 @@
     public class Pedido
     {
         public int Id { get; set; }
-        public DateTime fechaCreacion { get; set; }
-        public DateTime fechaActualizacion { get; set; }
-        public DateTime fechaCierre { get; set; }
-        public float valorTotal { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaActualizacion { get; set; }
+        public DateTime FechaCierre { get; set; }
+        public float ValorTotal { get; set; }
 
-        public int idCliente { get; set; }
+        public int IdCliente { get; set; }
 
         public Cliente? Cliente { get; set; }
     }

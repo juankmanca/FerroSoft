@@ -3,13 +3,13 @@
     public class Producto
     {
         public int Id { get; set; }
-        public string? nombre { get; set; }
-        public float valorUnitario { get; set; }
-        public string? medida { get; set; }
-        public string? unidadMedida { get; set; }
-        public float peso { get; set; }
-        public string? volumen { get; set; }
-        public DateTime fechaCreacion { get; set; }
-        public DateTime fechaActualizacion { get; set; }
+        public string? Nombre { get; set; }
+        public float ValorUnitario { get; set; }
+        public string? Medida { get; set; }
+        public string? UnidadMedida { get; set; }
+        public float Peso { get; set; }
+        public string? Volumen { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaActualizacion { get; set; }
     }
 }
